@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.barraSuperior{
+    background-image: url(/assets/design1_image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-position: center center;
+}
+.barra{
+    background-color: black;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    display: flex;   
+}
+.titulo{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:yellow;
+   text-shadow: 2px 2px 5px red;
+}
+.subtitulo{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px yellow;
+}
+.logoTipo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid yellow;
+    position: absolute;
+    right: 15rem;
+    top: 35vh;
+}
+h3{
+    font-weight: bold;  
+}
+.flex-hijo{
+    display: flex; 
+}
+.vertical-menu {
+    width: 100px; 
+  }
+  
+.vertical-menu a {
+    color: black; 
+    display: block; 
+    padding: 20px; 
+    text-decoration: none; 
+  }
+.vertical-menu a:hover {
+    text-decoration: underline;
+    color:darkblue;
+  }
+  a:hover {
+    color:red;
+    }
+.contenido{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    margin-left: 10rem;
+    font-family:serif;
+    font-style: normal;
+}
+.contact{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    margin-left: 10rem; 
+    font-family:serif;
+    font-style: normal;
+}
+.contenidoAbout{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    margin-left: 10rem; 
+    font-family:serif;
+    font-style: normal;
+    text-align: justify;
+}
+.footer{
+    width: 100%;
+    background: #111;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 1em;
+    align-self: flex-end;
+    position:absolute;
+    bottom:0;
+   }

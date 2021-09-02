@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.bodyComplet{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{ 
+    width: 100%;
+    height: 20vh;
+}
+nav{
+    background-color:rgb(166, 176, 185);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    list-style-type: none;
+    position: absolute;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav a{
+    text-decoration: none;
+    margin-top: 2rem;
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+a.active {
+    background-color: #8caa04;
+    color: white;
+}
+a:hover:not(.active) {
+    background-color: rgb(180, 199, 13);
+    width: 100%;
+    height: 5rem; 
+}
+.flex-hijo{
+    display: flex;
+    width: 100%;
+    background-image: url(..//assets/hockey1.jpg);
+    position: relative;
+    overflow:scroll;
+}
+.barraSuperior{
+    background-color: rgba(199, 199, 14, 0.808);
+    height: 15vh;
+    border-bottom: 5px solid black;
+    font-size: 30px;
+    position: relative;
+    
+  }
+.logoTipo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(215, 233, 58);
+    right: 13rem;
+    top: 1vh;
+    background-color: red;
+    border: 2px solid black;
+  }
+.titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+    text-align: left;
+   }
+.subtitulo{
+    color:gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px red;
+    background-color: black;
+    justify-content: center;
+    height: 2rem;
+    align-items: center;
+    display: flex;  
+  }
+.vertical-menu a:hover {
+    text-decoration: underline;
+    color:darkblue;
+    }
+h3{
+    background-color: rgba(199, 199, 14, 0.808);
+    width: 12rem;
+    }
+.formStyle{
+    background-color: rgba(199, 199, 14, 0.808);
+    width: 25rem;
+}
+h1{
+  margin-bottom: 1rem;
+}
+#titleTable{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(171, 182, 192);
+    font-size: 20px;
+    }
+.contenidoAbout{
+    margin-top: 1rem;
+    line-height: 2rem;
+    margin-left: 15rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    height: 80vh;
+        }
+.contacto{
+    margin-top: 3rem;
+    line-height: 2rem;
+    margin-left: 15rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;
+    width: 30rem;
+    height: 66vh;
+       }
+.contenido{
+    margin-top: 3rem;
+    line-height: 3rem;
+    margin-left: 15rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;
+    height: 66vh;
+        }
+.gamesInf{
+    margin-top: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;  
+    margin-left: 15rem;
+}
+.gamesMain{
+   display: table-column-group;
+
+}
+.contForm{
+    text-align: left;
+    line-height: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;
+    margin-top: 12px;
+    margin-left: 15rem;
+    height: 100%;
+}
+
+.footer{
+    width: 100%;
+    background: #111;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 1em;
+    align-self: flex-end;
+    bottom:0;
+    position: fixed;
+    }
+     /*games tables*/
+table, tr, th, td{
+    border: 4px solid red;
+     }
+table.gamesInf{
+    border-collapse: collapse;
+           }
+table.gamesInf caption{
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;
+         }
+caption{
+    text-decoration: underline;
+  
+}
+thead{
+    background-color: rgba(199, 199, 14, 0.808);
+    color: black;
+             }
+tbody{
+    background-color: rgba(199, 199, 14, 0.808);
+    color: black;
+    text-align:center;
+    }
+tbody tr:nth-child(2n){
+    background-color: rgb(241, 241, 100); ;
+    }
+tbody tr:hover{
+    background-color:red;
+    color:honeydew;
+    }
+.date{
+    width: 120px;
+    }
+.info{
+    width: 200px
+     }
+.footerGames{
+    margin-top: 2rem;
+    margin-left: 15rem;
+    line-height: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+#titleTable{
+    margin-left: 15rem;
+}
+/*list*/
+.contenidoRules{
+    text-align: left;
+    line-height: 2.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left: 15rem;
+    height: 72vh;
+    overflow: auto;
+}
+.ruleClass{
+    align-content:flex-start;
+}
+.rulesGames{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.mdhl{
+    text-align: center;
+    line-height: 2rem;
+}
+legend{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: red;
+}
+#spam{
+width: 80%;
+align-content: space-around;
+}

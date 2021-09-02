@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mighty Ducks</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../style/mdhl_3.1.css" rel="stylesheet">
+        <!--<link href="../style/mdhl_3.css" rel="stylesheet">-->
+    </head>
+    <body>
+       <header>
+            <div class="barraSuperior">
+                <h1 class="titulo">Mighty Ducks Hockey League</h1>
+            </div>
+            <div class="barra">
+                <h2 class="subtitulo">Registration Form</h2>
+                <img class="logoTipo" src="../assets/logo1.png" alt="logoTipo">
+            </div>
+       </header>
+       <div class="flex-hijo">
+            <nav class="vertical-menu">
+                <a class="index" href="index.html">Home</a>
+                <a class="about" href="about.html">About MDHL</a>
+                <a class="contact-nav" href="contact.html">Contact</a>
+                <a class="rules-nav" href="rules.html">Rules</a>
+                <a class="gamesInfomation" href="gamesInformation.html">Games Information</a>
+                <a class="form" href="form.html">Registration Form</a>
+            </nav>
+        <main>
+            <div class="contForm">
+            <h1>Registration Form</h1>
+            
+                <form action="show_data.html" method="GET">
+                <ul>
+                    <li> 
+                        <label for="name">Player's First Name:</label>
+                        <input type="text" id="name" name=user_name>
+                    </li>
+                    <li>
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name=user_lastName>
+                    </li>
+                    <li> 
+                        <label for="address">Street Address:</label>
+                        <input type="text" id="address" name=user_address>
+                    </li>
+                    <li>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name=user_city>
+                    </li>
+                   <li> 
+                        <label for="code">Zip Code:</label>
+                        <input type="number" id="code" name=user_code>
+                    </li>
+                    <li>
+                        <label for="date">Birth Date(mm/dd/yyyy):</label>
+                        <input type="date" id="date" name=user_date>
+                    </li>
+                    <li>
+                        <label for="cbox" id="cbox">Gender:
+                        <input type="checkbox" id="cbox" value="cbox">Female</label>
+                        <label for="cbox1" id="cbox1">
+                        <input type="checkbox" id="cbox1" value="cbox1">Male</label>
+                   </li>
+                   <li>
+                        <label for="cbox" id="cbox">Grade:
+                        <input type="checkbox" id="cbox" value="cbox"> Pre-School</label>
+                        <label for="cbox2" id="cbox2">
+                        <input type="checkbox" id="cbox2" value="cbox2">1st</label>
+                        <label for="cbox" id="cbox">
+                        <input type="checkbox" id="cbox3" value="cbox3">2nd</label>
+                        <label for="cbox3" id="cbox3">
+                        <input type="checkbox" id="cbox4" value="cbox4">3rd</label>
+                        <label for="cbox4" id="cbox4">
+                        <input type="checkbox" id="cbox5" value="cbox5">4th</label>
+                        <label for="cbox5" id="cbox5">
+                        <input type="checkbox" id="cbox6" value="cbox6">5th</label>
+                        <label for="cbox6" id="cbox6">       
+                    </li>
+                    <h3 class="formStyle">Which elementary school do you live near?</h3>
+                    <li>
+                    <label for="school">Closest School:</label>
+                    <select name="school">
+                        <optgroup label="Closest School">
+                            <option value="aj">AJ Katzenmaier</option>
+                            <option value="greenbay">Greenbay</option>
+                            <option value="howard">Howard A Yeager</option>
+                            <option value="hart">Marjorie P Hart</option>
+                            <option value="north">North Elementary</option>
+                            <option value="south">South Elementary</option>
+                        </optgroup>
+                    </select>
+                </li> 
+                    <h3 class="formStyle">What position(s) do you normally play? (check all that apply)</h3>
+                    <li>
+                        <label for="cbox13" id="cbox13">
+                        <input type="checkbox" id="cbox13" value="cbox13"> Forward</label>
+                        <label for="cbox14" id="cbox14">
+                        <input type="checkbox" id="cbox14" value="cbox14"> Midfield</label>
+                    </li>
+                    <li>
+                        <label for="cbox15" id="cbox15">
+                        <input type="checkbox" id="cbox15" value="cbox15"> Defense</label>
+                        <label for="cbox16" id="cbox16">
+                        <input type="checkbox" id="cbox16" value="cbox16"> Goalkeeper</label>
+                    </li>
+                    <h3 class="formStyle">Uniform Size:</h3>
+                    <li>
+                        <label for="cbox17" id="cbox17">
+                        <input type="checkbox" id="cbox17" value="cbox17"> Youth Smal</label>
+                        <label for="cbox18" id="cbox18">
+                        <input type="checkbox" id="cbox18" value="cbox18"> Medium</label>
+                    </li>
+                    <li>
+                        <label for="cbox19" id="cbox19">
+                        <input type="checkbox" id="cbox19" value="cbox19"> Youth Medium</label>
+                        <label for="cbox20" id="cbox20">
+                        <input type="checkbox" id="cbox20" value="cbox20"> Large</label>
+                    </li>
+                    <li>
+                        <label for="cbox21" id="cbox21">
+                        <input type="checkbox" id="cbox21" value="cbox21"> Yuoth Large</label>
+                        <label for="cbox22" id="cbox22">
+                        <input type="checkbox" id="cbox22" value="cbox22"> Extra-Large</label>
+                    </li>
+                    <li>
+                        <label for="cbox23" id="cbox23">
+                        <input type="checkbox" id="cbox23" value="cbox23"> Small</label>
+                    </li>
+               
+                <h3 class="formStyle">Permission to Play</h3>
+                <li>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrnat and I will abide by all the rules
+                    of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                    associated with hockey and in consideration for the "League" accepting the registrant for its
+                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, 
+                    their employees and associated personnel and volunteers, including the facilities used for practices,
+                    and games, against any claim by or on behalf of the registrand as a result of the registrant's 
+                    participation in the programand/orbeing transported to or from MDHL sponsored activities, Which
+                    transportation.
+                    By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that 
+                    I have read the cancellation policy and agree to its terms</p>
+                </li>
+                <li> 
+                    <label for="parent">Name:</label>
+                    <input type="text" id="parent" name=user_parent>
+                 </li>
+                 <li> 
+                    <label for="date1">Date:</label>
+                    <input type="date" id="date1" name=user_date>
+                </li>
+            </ul>
+            <div class="submit">
+                <input type="submit" value="Enviar">
+            </div>
+        </main>
+            <footer class="footer">
+                &copy; Johana Acosta 2021
+            </footer>
+        </form>
+        </body>
+</html>
